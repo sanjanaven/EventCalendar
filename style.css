@@ -28,17 +28,6 @@ ul {
     height: 80px;
   }
   
-  #time {
-    padding: 23px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-  }
- 
-  
-  .hour {
-    background-color: #ffffff;
-    color: #000000;
-  }
   
   .rowBtn {
     border-top-right-radius: 15px;
