@@ -1,0 +1,20 @@
+/* Main body */
+body{
+    text-align: center;
+    font-family: arial;
+    background-color: #ebedff;
+}
+
+ul {
+    display:table;
+    margin:0 auto;
+    text-align: right;
+}
+
+
+
+
+/* Return back */
+#get-back {
+    margin-top: 20px;
+}
