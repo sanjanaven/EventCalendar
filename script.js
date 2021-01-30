@@ -1,13 +1,10 @@
-let currentTime = moment().format('MMMM Do YYYY, h:mm:ss a');
-console.log(currentTime);
-
-function displayTime(){
-    document.getElementById("currentDay").innerHTML = currentTime;
-    
-};
-setInterval(displayTime, 1000);
-displayTime()
-
+var currentdate = new Date(); 
+var datetime = "Last Sync: " + currentdate.getDate() + "/"
+                + (currentdate.getMonth()+1)  + "/" 
+                + currentdate.getFullYear() + " @ "  
+                + currentdate.getHours() + ":"  
+                + currentdate.getMinutes() + ":" 
+                + currentdate.getSeconds();
 
 // variables for time
 //var date = moment().format("MMM Do YY");
