@@ -1,9 +1,14 @@
-/* Main body */
-body{
-    text-align: center;
-    font-family: arial;
-    background-color: #ebedff;
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<style>
+body {
+  font-family: "Sofia", sans-serif;
 }
+</style>
+</head>
+
+/* Main body */
+
 
 ul {
     display:table;
