@@ -5,6 +5,7 @@ var datetime = "Last Sync: " + currentdate.getDate() + "/"
                 + currentdate.getHours() + ":"  
                 + currentdate.getMinutes() + ":" 
                 + currentdate.getSeconds();
+console.log(datetime);
 
 // variables for time
 //var date = moment().format("MMM Do YY");
