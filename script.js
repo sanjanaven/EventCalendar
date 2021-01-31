@@ -12,8 +12,9 @@ $(document).ready(function() {
 
   
   // load any saved data from localStorage
-  // $("first.description").val(localStorage.getItem("first"));
-  JSON.parse(window.localStorage.getItem('first'));
+   $("first.name").val(localStorage.getItem("first"));
+   $("first.description").val(localStorage.getItem("first"));
+  // JSON.parse(window.localStorage.getItem('first'));
 
 
   // display current day on page
