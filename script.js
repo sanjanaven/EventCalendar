@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // listen for save button clicks
-  $(".saveBtn").on("click", function() {
+  $(".btn").on("click", function() {
     // get nearby values
     var description = $(this).siblings(".description").val();
     var name = $(this).parent().attr(".name");
