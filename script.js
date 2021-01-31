@@ -3,7 +3,7 @@ $(document).ready(function() {
   $(".btn").on("click", function() {
     // get nearby values
     var description = $(this).siblings(".description").val();
-    var name = $(this).parent().attr(".name");
+    var name = $(this).parent().attr("id");
 
     // save in localStorage
     localStorage.setItem(name, description);
