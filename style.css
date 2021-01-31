@@ -32,6 +32,14 @@ body {
     height: 80px;
   }
   
+.jumbotron {
+    min-height: 250px;
+} // will restrict the layout to take minimum height of 250 px
+ irrespective of the elements inside
+
+.jumbotron {
+    padding: 5em inherit;
+} //You can add the corresponding values to get desired results
 /*  #time {
     padding: 23px;
     border-top-left-radius: 15px;
