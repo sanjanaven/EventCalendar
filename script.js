@@ -2,11 +2,11 @@ $(document).ready(function() {
   // listen for save button clicks
   $(".saveBtn").on("click", function() {
     // get nearby values
-    var value = $(this).siblings(".description").val();
-    var time = $(this).parent().attr("id");
+    var description = $(this).siblings(".description").val();
+    var name = $(this).parent().attr(".name");
 
     // save in localStorage
-    localStorage.setItem(time, value);
+    localStorage.setItem(name, description);
   });
 
 
