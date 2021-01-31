@@ -1,17 +1,14 @@
-function formatDate(date) {
-    var d = new Date(date),
-        month = '' + (d.getMonth() + 1),
-        day = '' + d.getDate(),
-        year = d.getFullYear();
+// get the date
+var date = new Date();
+// date as a string
+var n = date.toDateString();
+// time as a string
+var time = date.toLocaleTimeString();
 
-    if (month.length < 2) 
-        month = '0' + month;
-    if (day.length < 2) 
-        day = '0' + day;
-
-    return [month, day, year].join('-');
-}
- 
+// log the date
+console.log('date:', n);
+// log the time
+console.log('time:',time);
 
 
 // variables for time
