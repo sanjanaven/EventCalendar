@@ -1,3 +1,3 @@
 # EventCalendar
 
-[Event Calenar](sanjanaven.github.io/EventCalendar/).
+[Event Calendar](sanjanaven.github.io/EventCalendar/).
