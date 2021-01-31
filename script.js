@@ -12,5 +12,16 @@ $(document).ready(function() {
   });
 
   // load any saved data from localStorage
+  
+//  var btn = document.getElementById('btn');
+//    btn.onclick = function () {
+ //   document.getElementById('txt').remove();
+  //  this.remove();
+// };
 
-
+  function reset(){
+var resetButton = document.getElementById("name1");
+if(resetButton){
+resetButton.value= "";
+}
+}
