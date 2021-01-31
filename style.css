@@ -33,7 +33,7 @@ body {
   }
   
 .jumbotron {
-    min-height: 250px;
+    max-height: 250px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cb/Classical_spectacular10.jpg");
     background-size: cover;
 
