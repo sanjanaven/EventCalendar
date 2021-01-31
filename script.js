@@ -2,10 +2,10 @@ $(document).ready(function() {
   // listen for save button clicks
   $(".saveBtn").on("click", function() {
     // get nearby values
-    var textContent = $(this).siblings(".description").val();
+    var textContent = $(this).siblings(".input-group-text").val();
     var name = $(this).parent().attr("id");
 
-     save in localStorage
+     
     localStorage.setItem(name, textContent);
   });
 
