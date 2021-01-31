@@ -11,6 +11,12 @@
         <!-- link to personal style sheet -->
         <link href="style.css" rel="stylesheet">
 
+        <style>
+p.ex1 {
+  margin-left: 10%;
+}
+</style>
+        
         <title>Event Calendar</title>
     </head>
     <body>
@@ -39,7 +45,10 @@
             <!-- FIRST listed event -->
             <div class="input-group">
                 <div class="input-group-prepend">
+                    <p class="ex1">
                     <span class="input-group-text" id="">01</span>
+                    </p>
+
                     <!-- event inputs -->
                     <input type="text" class="form-control" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
                     <input type="text" class="form-control" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
