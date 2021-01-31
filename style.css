@@ -34,11 +34,15 @@ body {
   
 .jumbotron {
     min-height: 250px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cb/Classical_spectacular10.jpg");
+    background-size: cover;
+
 } 
 
 .jumbotron {
     padding: 5em inherit;
 }
+
 /*  #time {
     padding: 23px;
     border-top-left-radius: 15px;
