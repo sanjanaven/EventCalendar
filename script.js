@@ -4,7 +4,7 @@ var date = moment().format("MMM Do YY");
 // console.log(currentTime);
 
 //-------append date----------//
-$("#currentDay").append(date);
+$("#currentDay").text(moment().format("dddd, MMMM Do"));
 
 
 $(document).ready(function() {
