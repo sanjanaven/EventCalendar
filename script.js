@@ -9,6 +9,10 @@ $(document).ready(function() {
     localStorage.setItem(name, textContent);
   });
 
+  var htmlContents = document.documentElement.innerHTML;
+localStorage.setItem('myHomePage', JSON.stringify(htmlContents ));
+
+localStorage.getItem('myHomePage');
 
   
   // load any saved data from localStorage
