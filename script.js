@@ -17,6 +17,3 @@ $(document).ready(function() {
   // JSON.parse(window.localStorage.getItem('first'));
 
 
-  // display current day on page
-  $("#currentDay").text(moment().format("MM DD YYYY"));
-});
