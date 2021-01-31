@@ -19,9 +19,12 @@ $(document).ready(function() {
   //  this.remove();
 // };
 
-  function reset(){
-var resetButton = document.getElementById("name1");
-if(resetButton){
-resetButton.value= "";
-}
-}
+  document.getElementById("reset").onclick = function() {
+   document.getElementById("name1").value = "";
+};
+//  function reset(){
+//var resetButton = document.getElementById("name1");
+//if(resetButton){
+//resetButton.value= "";
+//}
+//}
