@@ -9,16 +9,17 @@ body {
 
 /* Main body */
 
-ul {
+/* ul {
     display:table;
     margin:0 auto;
     text-align: right;
-}
+*/ }
 
   .col-10 {
       background: transparent;
       border: none;
       resize: none;
+      style="margin-left: 20px;"
       color: #000000;
       border-left: 1px solid rgb(196, 194, 194);
       border-top: 1px solid rgb(196, 194, 194);
@@ -30,13 +31,14 @@ ul {
   .row {
     white-space: pre-wrap;
     height: 40px;
+    style="margin-left: 20px;"
   }
   
-  #time {
+/*  #time {
     padding: 23px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-  }
+*/  }
 
   .rowBtn {
     border-top-right-radius: 15px;
