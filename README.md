@@ -1,5 +1,4 @@
 # EventCalendar
-Event Calendar
 [Event Calendar](sanjanaven.github.io/EventCalendar/).
 Event Calendar's purpose is for users to be able to create events and add them to their schedules. 
 
