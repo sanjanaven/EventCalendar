@@ -1,11 +1,11 @@
-<head>
+/* <head>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-<style>
+ <style> */
 body {
   font-family: "Roboto Mono", monospace;
 }
-</style>
-</head>
+/* </style>
+</head> */
 
 /* Main body */
 
@@ -19,7 +19,7 @@ body {
       background: transparent;
       border: none;
       resize: none;
-      style="margin-left: 20px;"
+      style="margin-right: 20px;"
       color: #000000;
       border-left: 1px solid rgb(196, 194, 194);
       border-top: 1px solid rgb(196, 194, 194);
@@ -31,7 +31,7 @@ body {
   .row {
     white-space: pre-wrap;
     height: 40px;
-    style="margin-left: 20px;"
+    style="margin-right: 20px;"
   }
   
 /*  #time {
@@ -43,6 +43,7 @@ body {
   .rowBtn {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    style="margin-right: 20px;"
     background-color: #06AED5;
     color: white;
     
