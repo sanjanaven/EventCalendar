@@ -22,7 +22,7 @@ console.log('time:',time);
 
 //---------background Updater------------------------//
 
-var eventNumber = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+var eventNumber = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
 
 
 //--onclick event to save user input to local storage---//
