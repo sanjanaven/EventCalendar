@@ -1,3 +1,3 @@
-# event
+# EventCalendar
 
-The link to the calendar is sanjanaven.github.io/event/
+[Event Calenar](sanjanaven.github.io/EventCalendar/).
