@@ -1,3 +1,12 @@
+//----define moment varibles used to show time----//
+var date = moment().format("MMM Do YY");
+// var currentTime = moment().format('H');
+// console.log(currentTime);
+
+//-------append date----------//
+$("#currentDay").append(date);
+
+
 $(document).ready(function() {
   // listen for save button clicks
   $(".saveBtn").on("click", function() {
@@ -11,5 +20,4 @@ $(document).ready(function() {
 
   // load any saved data from localStorage
 
-  $("#hour-16 .description").val(localStorage.getItem("hour-16"));
-  
+
