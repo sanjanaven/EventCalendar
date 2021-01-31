@@ -1,10 +1,3 @@
-//----define moment varibles used to show time----//
-var date = moment().format("MMM Do YY");
-// var currentTime = moment().format('H');
-// console.log(currentTime);
-
-//-------append date----------//
-$("#currentDay").text(moment().format("dddd, MMMM Do"));
 
 
 $(document).ready(function() {
