@@ -45,8 +45,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="first">01</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" id="name1" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" id= "description1" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n1" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d1" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -101,16 +101,14 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" id="reset" style="width: 125px;" onclick="reset()">Delete</button>
+                    <button type="button" class="btn btn-danger" id="reset" style="width: 125px;" onclick="reset1()">Delete</button>
                     <!-- making the delete button work -->
                     <script>
-                    function reset() {
-                        var resetName1 = document.getElementById("name1");
-                        var resetDescription1 = document.getElementById("description1");
-                        var resetMonth = document.getElementById("months");
+                    function reset1() {
+                        var resetName1 = document.getElementById("n1");
+                        var resetDescription1 = document.getElementById("d1");
                         resetName1.value= "";
                         resetDescription1.value= "";
-                        resetMonth.value= "";
                     }
                     </script>
                 </div>
@@ -123,8 +121,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">02</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n2" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d2" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -179,7 +177,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset2()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset2() {
+                        var resetName2 = document.getElementById("n2");
+                        var resetDescription2 = document.getElementById("d2");
+                        resetName2.value= "";
+                        resetDescription2.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
@@ -190,8 +197,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">03</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n3" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d3" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -246,7 +253,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset3()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset3() {
+                        var resetName3 = document.getElementById("n3");
+                        var resetDescription3 = document.getElementById("d3");
+                        resetName3.value= "";
+                        resetDescription3.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
@@ -257,8 +273,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">04</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n4" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d4" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -313,7 +329,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset4()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset4() {
+                        var resetName4 = document.getElementById("n4");
+                        var resetDescription4 = document.getElementById("d4");
+                        resetName4.value= "";
+                        resetDescription4.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
@@ -324,8 +349,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">05</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n5" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d5" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -380,7 +405,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset5()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset5() {
+                        var resetName5 = document.getElementById("n5");
+                        var resetDescription5 = document.getElementById("d5");
+                        resetName5.value= "";
+                        resetDescription5.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
@@ -391,8 +425,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">06</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n6" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d6" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -447,7 +481,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset6()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset6() {
+                        var resetName6 = document.getElementById("n6");
+                        var resetDescription6 = document.getElementById("d6");
+                        resetName6.value= "";
+                        resetDescription6.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
@@ -458,8 +501,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">07</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n7" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d7" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -514,7 +557,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset7()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset7() {
+                        var resetName7 = document.getElementById("n7");
+                        var resetDescription7 = document.getElementById("d7");
+                        resetName7.value= "";
+                        resetDescription7.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
@@ -525,8 +577,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">08</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n8" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d8" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -581,7 +633,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset8()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset8() {
+                        var resetName8 = document.getElementById("n8");
+                        var resetDescription8 = document.getElementById("d8");
+                        resetName8.value= "";
+                        resetDescription8.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
@@ -592,8 +653,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">09</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n9" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d9" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -648,7 +709,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset9()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset9() {
+                        var resetName9 = document.getElementById("n9");
+                        var resetDescription9 = document.getElementById("d9");
+                        resetName9.value= "";
+                        resetDescription9.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
@@ -659,8 +729,8 @@
                 <div class="input-group-prepend">
                     <span class="input-group-text" id="">10</span>
                     <!-- event inputs -->
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
-                    <input type="text" class="form-control" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="n10" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event name" aria-label="Event name" aria-describedby="basic-addon2">
+                    <input type="text" class="form-control" id="d10" style="width: 340px; border-radius: 0; border-color: black; border-width:0.25px" placeholder="Event description" aria-label="Event description" aria-describedby="basic-addon2">
                     <!-- adding the months to the drop down menu --> 
                     <div class="input-group-append">
                         <!-- months -->
@@ -715,7 +785,16 @@
                         </select>
                     </div>
                     <button type="button" class="btn saveBtn btn-secondary" style="width: 125px;">Save</button>
-                    <button type="button" class="btn btn-danger" style="width: 125px;">Delete</button>
+                    <button type="button" class="btn btn-danger" style="width: 125px;" onclick="reset10()">Delete</button>
+                    <!-- making the delete button work -->
+                    <script>
+                    function reset10() {
+                        var resetName10 = document.getElementById("n10");
+                        var resetDescription10 = document.getElementById("d10");
+                        resetName10.value= "";
+                        resetDescription10.value= "";
+                    }
+                    </script>
                 </div>
             </div>
             <!-- event break -->
