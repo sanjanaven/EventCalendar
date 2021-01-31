@@ -8,9 +8,6 @@ body {
 </head>
 
 /* Main body */
-h1 {
-    font-family: "Roboto Mono", monospace;
-}
 
 ul {
     display:table;
