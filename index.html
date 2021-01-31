@@ -38,8 +38,6 @@
             
         <main>
            <!-- <h1>An user-friendly, basic calendar website for scheduling events throughout the year</h1> -->
-        <form action="/action_page.php">
-<label for="cars">Choose a car:</label>
 
 <select id="cars" name="cars">
   <option value="volvo">Volvo XC90</option>
@@ -47,8 +45,6 @@
   <option value="mercedes">Mercedes SLK</option>
   <option value="audi">Audi TT</option>
 </select>
-<input type="submit" value="Submit">
-</form>
 
 <label for="cars">Choose a car:</label>
 
@@ -76,10 +72,11 @@
                         <button class="btn btn-outline-secondary dropdown-toggle" type="button" id = "month" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Month</button>
                         <div class="dropdown-menu">
                             <!-- months -->
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
+                            <select id="cars" name="cars">
+                            <option value="volvo">Volvo XC90</option>
+                            <option value="saab">Saab 95</option>
+                            <option value="mercedes">Mercedes SLK</option>
+                            <option value="audi">Audi TT</option>
                             <a class="dropdown-item" href="#">February</a>
                             <a class="dropdown-item" href="#">April</a>
                             <a class="dropdown-item" href="#">May</a>
@@ -90,6 +87,7 @@
                             <a class="dropdown-item" href="#">October</a>
                             <a class="dropdown-item" href="#">November</a>
                             <a class="dropdown-item" href="#">December</a>
+                                </select>
                         </div>
                     </div>
                     <div class="input-group-append">
@@ -127,6 +125,7 @@
                             <a class="dropdown-item" href="#">29</a>
                             <a class="dropdown-item" href="#">30</a>
                             <a class="dropdown-item" href="#">31</a>
+                            
                         </div>
                     </div>
                     <button class="rowBtn btn-primary form-control" style="width: 125px;">Save</button>
