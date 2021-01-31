@@ -9,6 +9,10 @@ $(document).ready(function() {
     localStorage.setItem(time, value);
   });
 
+  $(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+  
   // load any saved data from localStorage
   // $("#hour-9 .description").val(localStorage.getItem("first"));
   JSON.parse(window.localStorage.getItem('first'));
